@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mi Emprendimiento de Ropa</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fdfdfd;
+      color: #333;
+    }
+    header {
+      background: #000;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      letter-spacing: 2px;
+    }
+    .hero {
+      height: 70vh;
+      background: url('https://images.unsplash.com/photo-1523381210434-271e8be1f52b') center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      padding: 20px;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      background: rgba(0, 0, 0, 0.4);
+      padding: 15px 25px;
+      border-radius: 8px;
+    }
+    .section {
+      padding: 50px 20px;
+      max-width: 900px;
+      margin: auto;
+      text-align: center;
+    }
+    .productos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .item {
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .item img {
+      width: 100%;
+      height: 320px;
+      object-fit: cover;
+    }
+    .item h3 {
+      padding: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      background: #f5f5f5;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>Tu Marca de Ropa</h2>
+  </header>
+
+  <section class="hero">
+    <h1>Moda minimalista y elegante</h1>
+  </section>
+
+  <section class="section">
+    <h2>Nuestros Productos</h2>
+    <div class="productos">
+      <div class="item">
+        <img src="https://images.unsplash.com/photo-1544441893-675973e31985" alt="Producto 1" />
+        <h3>Top Minimalista</h3>
+      </div>
+      <div class="item">
+        <img src="https://images.unsplash.com/photo-1520975918318-3fcd0c105687" alt="Producto 2" />
+        <h3>Pantalón Básico</h3>
+      </div>
+      <div class="item">
+        <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d" alt="Producto 3" />
+        <h3>Vestido Elegante</h3>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 Tu Marca — Todos los derechos reservados
+  </footer>
+</body>
+</html>
